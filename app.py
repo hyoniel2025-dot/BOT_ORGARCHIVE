@@ -1,3 +1,12 @@
+import asyncio
+
+# 🔥 FIX para Python 3.14 + Pyrogram
+try:
+    asyncio.get_event_loop()
+except RuntimeError:
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+
 import os
 from pathlib import Path
 import threading
