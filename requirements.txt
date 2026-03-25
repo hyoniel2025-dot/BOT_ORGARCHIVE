@@ -1,0 +1,7 @@
+pyrogram==2.0.116
+tgcrypto==1.4.2
+flask==2.3.3
+requests==2.31.0
+py7zr==0.23.1
+multivolumefile==0.6.1
+internetarchive==1.9.12
